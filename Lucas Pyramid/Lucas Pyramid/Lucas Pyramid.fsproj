@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Lucas_Pyramid</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Script1.fsx" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Akka" Version="1.4.10" />
+    <PackageReference Include="Akka.Cluster" Version="1.4.10" />
+    <PackageReference Include="Akka.FSharp" Version="1.4.10" />
+    <PackageReference Include="Akka.Persistence" Version="1.4.10" />
+    <PackageReference Include="Akka.Persistence.FSharp" Version="1.4.10" />
+    <PackageReference Include="Akka.Remote" Version="1.4.10" />
+    <PackageReference Include="Akka.Streams" Version="1.4.10" />
+    <PackageReference Include="Akka.TestKit" Version="1.4.10" />
+  </ItemGroup>
+
+</Project>

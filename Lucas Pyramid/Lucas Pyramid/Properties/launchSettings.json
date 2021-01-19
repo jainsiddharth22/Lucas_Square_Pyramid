@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Lucas Pyramid": {
+      "commandName": "Project",
+      "commandLineArgs": "40 24"
+    }
+  }
+}
